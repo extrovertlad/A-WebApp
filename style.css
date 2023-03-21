@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+    color: #000000;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-image: url("https://images.hdqwalls.com/wallpapers/balloon-ride-n6.jpg");
+}
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	background-color: #50e2ff;
+	padding: 20px;
+	margin-top: 100px;
+	box-shadow :  0px 0px 50px rgba(0,0,0,5) ; 
+    
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+.input-section {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	flex: 1;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #000000;
+	font-size: 16px;
+}
+
+button {
+	padding: 10px;
+	background-color: #ff6f00;
+	border: none;
+	color: #0030cf;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #aefe02;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li:last-child {
+	border-bottom:rgb(9, 255, 0);
+}
+
+li span {
+	margin-right: 20px;
+}
+
+li button {
+	background-color: #e0a606de;
+	color: #fff;
+	border:blue;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+li button:hover {
+	background-color: #3310cd;
+}
